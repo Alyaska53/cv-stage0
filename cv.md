@@ -70,9 +70,14 @@ function validParentheses(parens) {
 
 ### Courses:
 
-* HTML and CCS Tutorials on the [code-basics](https://ru.code-basics.com/) (completed)
+* HTML and CCS Tutorials on the [Code-Basics](https://ru.code-basics.com/) (completed)
 * JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
 * RS School Course "JS / FRONT-END" (in progress)
 
 ***
 
+### Languages:
+
+* Russian (native)
+* Belarusian (native)
+* English (А2)
