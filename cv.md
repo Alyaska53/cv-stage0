@@ -34,3 +34,36 @@ I really want to become a good _front-end developer_ and I'm going to my goal!
 
 ***
 
+### Code example:
+
+**KATA from CODEWARS**: _Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid._  
+_The function should return `true` if the string is valid, and `false` if it's invalid._
+
+```function validParentheses(parens) {
+  
+  if (100 < parens.length) {
+    return false;
+  }
+  
+  parens = parens.split('');
+    
+  let arr = parens.filter( el => ( el == ')' ) || ( el == '(' ) );  
+  let stack = [];
+  
+  arr.forEach( function(el) {
+    if (el == '(') {
+      stack.push(el);
+    } else {
+        if (stack.length == 0 || stack[stack.length - 1] == ')') {
+          stack.push(el);
+        } else {
+          stack.pop();
+        }
+    }
+  });
+  
+  return (stack.length) ? false : true;
+}
+```
+
+***
