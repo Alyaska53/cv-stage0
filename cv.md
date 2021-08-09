@@ -37,9 +37,10 @@ I really want to become a good _front-end developer_ and I'm going to my goal!
 ### Code example:
 
 **KATA from CODEWARS**: _Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid._  
-_The function should return `true` if the string is valid, and `false` if it's invalid._
+_The function should return_ `true` _if the string is valid, and_ `false` _if it's invalid._
 
-```function validParentheses(parens) {
+```
+function validParentheses(parens) {
   
   if (100 < parens.length) {
     return false;
@@ -65,5 +66,4 @@ _The function should return `true` if the string is valid, and `false` if it's i
   return (stack.length) ? false : true;
 }
 ```
-
 ***
