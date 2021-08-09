@@ -67,3 +67,12 @@ function validParentheses(parens) {
 }
 ```
 ***
+
+### Courses:
+
+* HTML and CCS Tutorials on the [code-basics](https://ru.code-basics.com/) (completed)
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
+* RS School Course "JS / FRONT-END" (in progress)
+
+***
+
